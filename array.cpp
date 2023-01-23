@@ -18,7 +18,5 @@ int main()
     {
         cout<<third[i]<<" ";
     }
-    
-
     return 0;
 }
