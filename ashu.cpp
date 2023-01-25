@@ -345,7 +345,43 @@ int main()
     
     
  return 0;
-}*/
+}
 #include<iostream>
 using namespace std;
-ing
+bool isEven(int a){
+    if(a&1){
+        return 0;
+    }
+    else{
+        return 1;
+    }
+}
+
+int main()
+{
+    int num;
+    cin>>num;
+    if (isEven(num))
+    {
+        cout<<"no is even"<<endl;
+    }
+    else{
+        cout<<"no is odd"<<endl;
+    }
+ return 0;
+
+}
+*/
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+   int i,fact=1,number;    
+  cout<<"Enter any Number: ";    
+ cin>>number;    
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  cout<<"Factorial of " <<number<<" is: "<<fact<<endl;  
+  return 0;  
+}  
