@@ -26,4 +26,4 @@ int main()
     printarray(arr, 7);
 
     return 0;
-}
+} 
