@@ -28,7 +28,7 @@ int binarysearch(int arr[], int size, int key)
 int main()
 {
     int even[] = {2, 4, 6, 8, 12, 18};
-    int evenindex = binarysearch(even, 6, 12);
-    cout << "index of 12 is " << evenindex << endl;
+    int evenindex = binarysearch(even, 6, 18);
+    cout << "index of 18 is " << evenindex << endl;
     return 0;
 }
