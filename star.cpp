@@ -27,7 +27,7 @@ int main()
     }
     return 0;
 }
-
+*/
 #include <iostream>
 using namespace std;
 int main()
@@ -41,7 +41,7 @@ int main()
 
     cout << "sum of num1 and num2 " << num1 + num2 << endl;
     return 0;
-}
+}/*
 #include <iostream>
 using namespace std;
 int main()
