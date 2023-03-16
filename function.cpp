@@ -36,7 +36,7 @@ int main()
  return 0;
 }*/
 
-/* power of ab by using function
+ /*power of ab by using function*/
 
 #include <iostream>
 using namespace std;
@@ -65,6 +65,7 @@ int main()
     }
     return 0;
 }
+/*
 #include <iostream>
 using namespace std;
 int main()
@@ -79,7 +80,7 @@ int main()
     }
     cout << " factorial " <<  n  << " is:  " <<  fact  << endl;
     return 0;
-}*/
+}
 #include <iostream>
 using namespace std;
 int factorial(int n)
@@ -108,3 +109,4 @@ int main()
 
     return 0;
 }
+*/
