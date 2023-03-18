@@ -52,7 +52,7 @@ using namespace std;
 int main() //function
  {
 cout<<"hello world";// string
-}*/
+}
 
 #include <iostream>
 using namespace std;
@@ -84,5 +84,37 @@ int main()
     int arr[5] = {3, 5, 7, 11, 51};
     int arrindex = binarysearch(arr, 5, 11);
     cout << "index of 11 is" << arrindex << endl;
+    return 0;
+}*/
+#include <iostream>
+using namespace std;
+int binarysearch(int arr[], int size, int key)
+{
+    int start = 0;
+    int end = size - 1;
+    int mid = (start + end) / 2;
+    while (start <= end)
+    {
+        if (key == arr[mid])
+        {
+            return mid;
+        }
+        if (key > arr[mid])
+        {
+            start = mid + 1;
+        }
+        else
+        {
+            end = mid - 1;
+        }
+        mid = (start + end) / 2;
+    }
+    return -1;
+}
+int main()
+{
+    int even[6] = {6, 44, 66, 77, 78, 86};
+    int evenindex = binarysearch(even, 6, 66);
+    cout << "index of 66 is " << evenindex << endl;
     return 0;
 }
