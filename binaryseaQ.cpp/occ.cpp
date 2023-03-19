@@ -48,8 +48,8 @@ int lastocc(int arr[],int n,int key){
 }
 int main()
 {
-    int even[5]={1,2,3,4,5};
-    cout<<"First occurrence of 3 is at index "<<firstocc(even,5,3)<<endl;
-    cout<<"last occurrence of 3 is at index "<<lastocc(even,5,3)<<endl;
+    int even[6]={1,2,3,3,4,5};
+    cout<<"First occurrence of 3 is at index "<<firstocc(even,6,3)<<endl;
+    cout<<"last occurrence of 3 is at index "<<lastocc(even,6,3)<<endl;
  return 0;
 }
