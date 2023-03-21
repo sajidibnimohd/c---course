@@ -36,7 +36,7 @@ int main()
  return 0;
 }*/
 
- /*power of ab by using function*/
+ /*power of ab by using function
 
 #include <iostream>
 using namespace std;
@@ -66,6 +66,7 @@ int main()
     return 0;
 }
 /*
+*/
 #include <iostream>
 using namespace std;
 int main()
