@@ -37,7 +37,7 @@ int main()
 }*/
 
  /*power of ab by using function
-*/
+
 #include <iostream>
 using namespace std;
 bool isEven(int a)
@@ -66,7 +66,6 @@ int main()
     return 0;
 }
 
-/*
 #include <iostream>
 using namespace std;
 int main()
@@ -81,7 +80,7 @@ int main()
     }
     cout << " factorial " <<  n  << " is:  " <<  fact  << endl;
     return 0;
-}
+}*/
 #include <iostream>
 using namespace std;
 int factorial(int n)
