@@ -46,7 +46,7 @@ int main ()
 {
     cout<<"hello world ";
     return 0;
-}
+}*/
 #include<iostream>// preprocerrsor command
 using namespace std;
 int main() //function
@@ -85,7 +85,8 @@ int main()
     int arrindex = binarysearch(arr, 5, 11);
     cout << "index of 11 is" << arrindex << endl;
     return 0;
-}*/
+}
+/*
 #include <iostream>
 using namespace std;
 int binarysearch(int arr[], int size, int key)
