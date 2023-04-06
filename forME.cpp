@@ -86,7 +86,7 @@ int main()
     cout << "index of 11 is" << arrindex << endl;
     return 0;
 }
-/*
+
 #include <iostream>
 using namespace std;
 int binarysearch(int arr[], int size, int key)
