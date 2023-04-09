@@ -1,4 +1,4 @@
-/*
+
 #include<iostream>
 using namespace std;
 int main()
@@ -34,8 +34,8 @@ int main()
     cout<<"answer is"<<answer<<endl;
 
  return 0;
-}*/
-
+}
+/*
  /*power of ab by using function
 
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
     }
     return 0;
 }
-*/
+
 #include <iostream>
 using namespace std;
 int main()
